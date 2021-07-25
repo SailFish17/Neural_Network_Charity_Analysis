@@ -19,7 +19,7 @@ Using bulleted lists and images to support your answers, address the following q
   - The variable be considered for the target of the model is IS_SUCCESSFUL 
   
   - A feature is a measurable property of the object you’re trying to analyze
-    ![features](Resources/features.JPG)
+    ![features](Resources/features.png)
   
     The features we are looking for are APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, (STATUS), INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT.
   
@@ -32,10 +32,10 @@ Using bulleted lists and images to support your answers, address the following q
     2) These numbers were used to calculate  **80** *1st hidden layer* ***** **30** *2nd hidden layer*  + **30** *2nd hidden layer* **=  3520**** *Dense layer 1*
 
     3) These numbers were used to calculate  **30** *2nd hidden layer* **+** **1** =  **31** *Dense layer 2* to equal  5,981 params
-    ![neurons](Resources/neurons.JPG)
+    ![neurons](Resources/neurons.png)
   
   - The Target for the model was 75%, however we were not able to achieve that, scoring 72.57%  
-  ![original](Resources/original.JPG)
+  ![original](Resources/original.png)
   
   - Some further steps I took to optimizing was allowing more applications, by binning a lower number of values (from counts of 200 and less to just 100 and less and adding T9 as a standalone value for Application Type with 156 types and reducing the other to 120 types)
   ![binning](Resources/binning.png)
@@ -45,7 +45,7 @@ Using bulleted lists and images to support your answers, address the following q
   - The Model added a third hidden layer with 10 Neurons , and change all steps to use sigmoid for an attempt to have a higher accuracy (it was found increasing the 1st and 2nd Hidden layer did not help with increasing our accuracy initially).
   
   - We achieved an accuracy mark of 72.72% which slightly better than our original model, with an improvement of loss by just 0.26% which is small considering the processing effort
-    ![optimized](Resources/optimized.JPG)
+    ![optimized](Resources/optimized.png)
 
 ## Summary
 With the provided data set, our models mostly ended up being approximately 75.5% accurate. With the current dataset, and slight changes in binning technique are dropping one column, we failed to improve the score with the contents of the current dataset to beyond 76% and into the ranges of as close to 100% as we can get.
