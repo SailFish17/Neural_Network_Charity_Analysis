@@ -4,13 +4,6 @@ Module 19: Neural Networks and Deep Learning Models
 ## Overview of the analysis
 Using my knowledge of machine learning and neural networks, We provided Bek's a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. The sample file we received contains over 34,000 organizations that have received funding from Alphabet Soup over the years.
 
-# Resources
-
-Jupyter Files: [AlphabetSoupCharity.ipynb](notebooks/AlphabetSoupCharity.ipynb) ,  [AlphabetSoupCharity_Optimization.ipynb](notebooks/AlphabetSoupCharity_Optimization.ipynb) 
-
-DataSources: [charity_data.csv](Resources/charity_data.csv)  [AlphabetSoupCharity.h5](notebooks/AlphabetSoupCharity.h5)  [AlphabetSoupCharityOptimized.h5](notebooks/AlphabetSoupCharityOptimized.h5) 
-
-Results:  [AlphabetSoupCharity.html](Resources/AlphabetSoupCharity.html)  [AlphabetSoupCharity_Optimization.html](Resources/AlphabetSoupCharity_Optimization.html) 
 
 ## Results
 Using bulleted lists and images to support your answers, address the following questions.
